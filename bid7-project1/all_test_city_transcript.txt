@@ -1,0 +1,281 @@
+Script started on Wed Sep 26 14:41:54 2018
+[?1034hbash-3.2$ python3 puzzlesolver.py cities.config bfs
+Algorithm is bfs
+goal state is  Arlington
+====Path==== 
+Berkshire
+Arlington
+====Total Nodes Created (Time)====
+Size: 3
+====Max Frontier List (Space)====
+Size: 2
+====Max Explored List Size (Space)====
+Size: 1
+========
+
+
+
+bash-3.2$ python3 puzzlesolver.py cities.config dfs
+Algorithm is dfs
+goal state is  Arlington
+Found!
+====Path==== 
+Berkshire
+Chelmsford
+Arlington
+====Total Nodes Created (Time)====
+Size: 4
+====Max Frontier List (Space)====
+Size: 2
+========
+
+
+
+bash-3.2$ python3 puzzlesolver.py cities.config iddfs
+Algorithm is iddfs
+goal state is  Arlington
+Found!
+====Path==== 
+Berkshire
+Arlington
+====Total Nodes Created (Time)====
+Size: 3
+====Max Frontier List (Space)====
+Size: 2
+========
+
+
+
+bash-3.2$ python3 puzzlesolver.py cities.config unicost
+Algorithm is unicost
+goal state is  Arlington
+min state is Berkshire
+Found
+====Path==== 
+Berkshire
+Chelmsford
+Arlington
+====Total Nodes Created (Time)====
+Size: 4
+====Max Frontier List (Space)====
+Size: 1
+====Max Explored List Size (Space)====
+Size: 3
+========
+
+
+
+bash-3.2$ python3 puzzlesolver.py cities.config greedy euclidean
+Algorithm is greedy
+goal state is  Arlington
+Found!
+====Path==== 
+Berkshire
+Arlington
+====Total Nodes Created (Time)====
+Size: 2
+====Max Frontier List (Space)====
+Size: 1
+====Max Explored List Size (Space)====
+Size: 1
+========
+
+
+
+bash-3.2$ python3 puzzlesolver.py cities.config astar euclidean
+Algorithm is astar
+goal state is  Arlington
+min state is Berkshire
+Found
+====Path==== 
+Berkshire
+Chelmsford
+Arlington
+====Total Nodes Created (Time)====
+Size: 4
+====Max Frontier List (Space)====
+Size: 1
+====Max Explored List Size (Space)====
+Size: 3
+========
+
+
+
+bash-3.2$ python3 puzzlesolver.py cities.config idastar euclidean
+Algorithm is idastar
+goal state is  Arlington
+min state is Berkshire
+Found
+====Path==== 
+Berkshire
+Chelmsford
+Arlington
+====Total Nodes Created (Time)====
+Size: 6
+====Max Frontier List (Space)====
+Size: 1
+========
+
+
+bash-3.2$ 
+bash-3.2$ 
+bash-3.2$ 
+bash-3.2$ 
+bash-3.2$ 
+bash-3.2$ python3 puzzlesolver.py test_cities.config bfs
+Algorithm is bfs
+goal state is  C44
+====Path==== 
+C00
+C11
+C22
+C33
+C44
+====Total Nodes Created (Time)====
+Size: 318
+====Max Frontier List (Space)====
+Size: 181
+====Max Explored List Size (Space)====
+Size: 24
+========
+
+
+bash-3.2$ python3 puzzlesolver.py test_cities.config dfs
+Algorithm is dfs
+goal state is  C44
+Found!
+====Path==== 
+C00
+C11
+C20
+C31
+C40
+C41
+C32
+C23
+C14
+C03
+C12
+C21
+C10
+C01
+C02
+C13
+C22
+C33
+C42
+C43
+C34
+C44
+====Total Nodes Created (Time)====
+Size: 73
+====Max Frontier List (Space)====
+Size: 51
+========
+
+
+bash-3.2$ python3 puzzlesolver.py test_cities.config iddfs
+Algorithm is iddfs
+goal state is  C44
+Found!
+====Path==== 
+C00
+C11
+C22
+C33
+C44
+====Total Nodes Created (Time)====
+Size: 199
+====Max Frontier List (Space)====
+Size: 19
+========
+
+
+bash-3.2$ python3 puzzlesolver.py test_cities.config unicost
+Algorithm is unicost
+goal state is  C44
+min state is C00
+Found
+====Path==== 
+C00
+C11
+C02
+C13
+C24
+C34
+C44
+====Total Nodes Created (Time)====
+Size: 73
+====Max Frontier List (Space)====
+Size: 9
+====Max Explored List Size (Space)====
+Size: 25
+========
+
+
+
+bash-3.2$ python3 puzzlesolver.py test_cities.config greedy euclidean
+Algorithm is greedy
+goal state is  C44
+Found!
+====Path==== 
+C00
+C11
+C22
+C33
+C44
+====Total Nodes Created (Time)====
+Size: 5
+====Max Frontier List (Space)====
+Size: 4
+====Max Explored List Size (Space)====
+Size: 4
+========
+
+
+bash-3.2$ python3 puzzlesolver.py test_cities.config astar euclidean
+Algorithm is astar
+goal state is  C44
+min state is C00
+Found
+====Path==== 
+C00
+C11
+C02
+C13
+C24
+C34
+C44
+====Total Nodes Created (Time)====
+Size: 73
+====Max Frontier List (Space)====
+Size: 9
+====Max Explored List Size (Space)====
+Size: 25
+========
+
+
+bash-3.2$ python3 puzzlesolver.py test_cities.config idastar euclidean
+Algorithm is idastar
+goal state is  C44
+min state is C00
+Found
+====Path==== 
+C00
+C11
+C02
+C13
+C24
+C34
+C44
+====Total Nodes Created (Time)====
+Size: 3959
+====Max Frontier List (Space)====
+Size: 16
+========
+
+
+bash-3.2$ exit
+exit
+
+Script done on Wed Sep 26 14:44:00 2018

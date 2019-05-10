@@ -1,0 +1,12 @@
+Script started on Mon Oct  8 21:57:33 2018
+[?1034hbash-3.2$ python3 minimax_a_b.py test_tree1
+---- Minimax Algorithm ----
+Final Utility Value propagated to the root: 6
+All Nodes Visited: ['A', 'B', 'D', 'H', 'I', 'E', 'J', 'K', 'C', 'F', 'L', 'M', 'G', 'N', 'O']
+---- Alpha Beta Pruning----
+Final Utility Value propagated to the root: 6
+All Nodes Visited: ['A', 'B', 'D', 'H', 'I', 'E', 'J', 'K', 'C', 'F', 'L', 'M']
+bash-3.2$ exit
+exit
+
+Script done on Mon Oct  8 21:57:51 2018

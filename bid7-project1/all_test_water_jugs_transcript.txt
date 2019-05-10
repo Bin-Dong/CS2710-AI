@@ -1,0 +1,344 @@
+Script started on Wed Sep 26 17:00:52 2018
+[?1034hbash-3.2$ python3 puzzlesolve.py jugs.config bfs
+Algorithm is bfs
+goal state is  [0, 2, 0]
+====Path==== 
+[0, 0]
+[3, 0]
+[0, 3]
+[3, 3]
+[2, 4]
+[2, 0]
+[0, 2]
+====Total Nodes Created (Time)====
+Size: 48
+====Max Frontier List Size (Space)====
+Size: 11
+====Max Explored List Size (Space)====
+Size: 12
+========
+
+
+bash-3.2$ 
+bash-3.2$ python3 puzzlesolver.py jugs.config dfs
+Algorithm is dfs
+goal state is  [0, 2, 0]
+Found!
+====Path==== 
+[0, 0]
+[0, 4]
+[3, 1]
+[3, 0]
+[0, 3]
+[3, 3]
+[2, 4]
+[2, 0]
+[0, 2]
+====Total Nodes Created (Time)====
+Size: 16
+====Max Frontier List Size (Space)====
+Size: 8
+========
+
+
+bash-3.2$ python3 puzzlesolver.py jugs.config iddfs
+Algorithm is iddfs
+goal state is  [0, 2, 0]
+Found!
+====Path==== 
+[0, 0]
+[3, 0]
+[0, 3]
+[3, 3]
+[2, 4]
+[2, 0]
+[0, 2]
+====Total Nodes Created (Time)====
+Size: 121
+====Max Frontier List Size (Space)====
+Size: 7
+========
+bash-3.2$ 
+
+
+bash-3.2$ python3 puzzlesolver.py jugs.config unicost
+Algorithm is unicost
+goal state is  [0, 2, 0]
+min state is [0, 0, 0]
+Found
+====Path==== 
+[0, 0]
+[3, 0]
+[0, 3]
+[3, 3]
+[2, 4]
+[2, 0]
+[0, 2]
+====Total Nodes Created (Time)====
+Size: 48
+====Max Frontier List Size (Space)====
+Size: 2
+====Max Explored List Size (Space)====
+Size: 13
+========
+
+
+bash-3.2$ 
+bash-3.2$ python3 puzzlesolver.py jugs.config greedy volume
+Algorithm is greedy
+goal state is  [0, 2, 0]
+Found!
+====Path==== 
+[0, 0]
+[3, 0]
+[0, 3]
+[0, 4]
+[3, 1]
+[0, 1]
+[1, 0]
+[1, 4]
+[3, 2]
+[0, 2]
+====Total Nodes Created (Time)====
+Size: 11
+====Max Frontier List Size (Space)====
+Size: 9
+====Max Explored List Size (Space)====
+Size: 10
+========
+
+
+bash-3.2$ 
+bash-3.2$ 
+bash-3.2$ python3 puzzlesolver.py jugs.config astar volume
+Algorithm is astar
+goal state is  [0, 2, 0]
+min state is [0, 0, 0]
+Found
+====Path==== 
+[0, 0]
+[3, 0]
+[0, 3]
+[3, 3]
+[2, 4]
+[2, 0]
+[0, 2]
+====Total Nodes Created (Time)====
+Size: 48
+====Max Frontier List Size (Space)====
+Size: 2
+====Max Explored List Size (Space)====
+Size: 13
+========
+
+
+bash-3.2$ 
+bash-3.2$ 
+bash-3.2$ python3 puzzlesolver.py jugs.config idastar volume
+Algorithm is idastar
+goal state is  [0, 2, 0]
+min state is [0, 0, 0]
+Found
+====Path==== 
+[0, 0]
+[3, 0]
+[0, 3]
+[3, 3]
+[2, 4]
+[2, 0]
+[0, 2]
+====Total Nodes Created (Time)====
+Size: 134
+====Max Frontier List Size (Space)====
+Size: 7
+========
+
+
+bash-3.2$ 
+bash-3.2$ 
+bash-3.2$ 
+bash-3.2$ python3 puzzlesolver.py test_jugs.config bfs
+Algorithm is bfs
+goal state is  [1, 0, 0]
+====Path==== 
+[0, 0]
+[4, 0]
+[0, 4]
+[4, 4]
+[0, 8]
+[4, 8]
+[1, 11]
+[1, 0]
+====Total Nodes Created (Time)====
+Size: 60
+====Max Frontier List Size (Space)====
+Size: 12
+====Max Explored List Size (Space)====
+Size: 14
+========
+
+
+bash-3.2$ 
+bash-3.2$ python3 puzzlesolver.py test_jugs.config dfs
+Algorithm is dfs
+goal state is  [1, 0, 0]
+Found!
+====Path==== 
+[0, 0]
+[0, 11]
+[4, 7]
+[4, 0]
+[0, 4]
+[4, 4]
+[0, 8]
+[4, 8]
+[1, 11]
+[1, 0]
+====Total Nodes Created (Time)====
+Size: 18
+====Max Frontier List Size (Space)====
+Size: 9
+========
+
+
+bash-3.2$ 
+bash-3.2$ 
+bash-3.2$ python3 puzzlesolver.py test_jugs.config iddfs
+Algorithm is iddfs
+goal state is  [1, 0, 0]
+Found!
+====Path==== 
+[0, 0]
+[4, 0]
+[0, 4]
+[4, 4]
+[0, 8]
+[4, 8]
+[1, 11]
+[1, 0]
+====Total Nodes Created (Time)====
+Size: 188
+====Max Frontier List Size (Space)====
+Size: 7
+========
+
+
+
+bash-3.2$ 
+bash-3.2$ 
+bash-3.2$ python3 puzzlesolver.py test_jugs.config unicost
+Algorithm is unicost
+goal state is  [1, 0, 0]
+min state is [0, 0, 0]
+Found
+====Path==== 
+[0, 0]
+[4, 0]
+[0, 4]
+[4, 4]
+[0, 8]
+[4, 8]
+[1, 11]
+[1, 0]
+====Total Nodes Created (Time)====
+Size: 57
+====Max Frontier List Size (Space)====
+Size: 2
+====Max Explored List Size (Space)====
+Size: 15
+========
+
+
+bash-3.2$ 
+bash-3.2$ 
+bash-3.2$ python3 puzzlesolver.py test_jugs.config greedy volume
+Algorithm is greedy
+goal state is  [1, 0, 0]
+Found!
+====Path==== 
+[0, 0]
+[4, 0]
+[0, 4]
+[0, 11]
+[4, 7]
+[0, 7]
+[4, 3]
+[0, 3]
+[3, 0]
+[3, 11]
+[4, 10]
+[0, 10]
+[4, 6]
+[0, 6]
+[4, 2]
+[0, 2]
+[2, 0]
+[2, 11]
+[4, 9]
+[0, 9]
+[4, 5]
+[0, 5]
+[4, 1]
+[0, 1]
+[1, 0]
+====Total Nodes Created (Time)====
+Size: 26
+====Max Frontier List Size (Space)====
+Size: 24
+====Max Explored List Size (Space)====
+Size: 25
+========
+
+
+bash-3.2$ 
+bash-3.2$ 
+bash-3.2$ python3 puzzlesolver.py test_jugs.config astar volume
+Algorithm is astar
+goal state is  [1, 0, 0]
+min state is [0, 0, 0]
+Found
+====Path==== 
+[0, 0]
+[4, 0]
+[0, 4]
+[4, 4]
+[0, 8]
+[4, 8]
+[1, 11]
+[1, 0]
+====Total Nodes Created (Time)====
+Size: 57
+====Max Frontier List Size (Space)====
+Size: 2
+====Max Explored List Size (Space)====
+Size: 15
+========
+bash-3.2$ 
+bash-3.2$ 
+
+
+bash-3.2$ python3 puzzlesolver.py test_jugs.config idastar volume
+Algorithm is idastar
+goal state is  [1, 0, 0]
+min state is [0, 0, 0]
+Found
+====Path==== 
+[0, 0]
+[4, 0]
+[0, 4]
+[4, 4]
+[0, 8]
+[4, 8]
+[1, 11]
+[1, 0]
+====Total Nodes Created (Time)====
+Size: 196
+====Max Frontier List Size (Space)====
+Size: 8
+========
+bash-3.2$ 
+bash-3.2$ 
+bash-3.2$ exit
+exit
+
+Script done on Wed Sep 26 17:03:06 2018

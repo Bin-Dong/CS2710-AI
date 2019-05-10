@@ -1,0 +1,89 @@
+Script started on Wed Sep 26 17:08:57 2018
+[?1034hbash-3.2$ python3 puzzlesolver.py test_jugs.config bfs
+Algorithm is bfs
+goal state is  [1, 0, 0]
+====Path==== 
+[0, 0]
+[4, 0]
+[0, 4]
+[4, 4]
+[0, 8]
+[4, 8]
+[1, 11]
+[1, 0]
+====Total Nodes Created (Time)====
+Size: 60
+====Max Frontier List Size (Space)====
+Size: 12
+====Max Explored List Size (Space)====
+Size: 14
+========
+bash-3.2$ 
+
+
+
+bash-3.2$ python3 puzzlesolver.py test_jugs.config dfs
+Algorithm is dfs
+goal state is  [1, 0, 0]
+Found!
+====Path==== 
+[0, 0]
+[0, 11]
+[4, 7]
+[4, 0]
+[0, 4]
+[4, 4]
+[0, 8]
+[4, 8]
+[1, 11]
+[1, 0]
+====Total Nodes Created (Time)====
+Size: 18
+====Max Frontier List Size (Space)====
+Size: 9
+========
+bash-3.2$ 
+bash-3.2$ 
+
+
+bash-3.2$ python3 puzzlesolver.py test_jugs.config greedy volume
+Algorithm is greedy
+goal state is  [1, 0, 0]
+Found!
+====Path==== 
+[0, 0]
+[4, 0]
+[0, 4]
+[0, 11]
+[4, 7]
+[0, 7]
+[4, 3]
+[0, 3]
+[3, 0]
+[3, 11]
+[4, 10]
+[0, 10]
+[4, 6]
+[0, 6]
+[4, 2]
+[0, 2]
+[2, 0]
+[2, 11]
+[4, 9]
+[0, 9]
+[4, 5]
+[0, 5]
+[4, 1]
+[0, 1]
+[1, 0]
+====Total Nodes Created (Time)====
+Size: 26
+====Max Frontier List Size (Space)====
+Size: 24
+====Max Explored List Size (Space)====
+Size: 25
+========
+bash-3.2$ exit
+exit
+
+Script done on Wed Sep 26 17:09:58 2018

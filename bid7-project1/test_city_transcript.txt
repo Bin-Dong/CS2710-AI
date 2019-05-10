@@ -1,0 +1,70 @@
+Script started on Wed Sep 26 14:48:50 2018
+[?1034hbash-3.2$ python3 puzzlesolver.py test_cities.config unicost
+Algorithm is unicost
+goal state is  C44
+min state is C00
+Found
+====Path==== 
+C00
+C11
+C02
+C13
+C24
+C34
+C44
+====Total Nodes Created (Time)====
+Size: 73
+====Max Frontier List Size (Space)====
+Size: 9
+====Max Explored List Size (Space)====
+Size: 25
+========
+bash-3.2$ 
+bash-3.2$ 
+
+
+
+bash-3.2$ python3 puzzlesolver.py test_cities.config greedy euclidean
+Algorithm is greedy
+goal state is  C44
+Found!
+====Path==== 
+C00
+C11
+C22
+C33
+C44
+====Total Nodes Created (Time)====
+Size: 5
+====Max Frontier List Size (Space)====
+Size: 4
+====Max Explored List Size (Space)====
+Size: 4
+========
+
+
+
+bash-3.2$ python3 puzzlesolver.py test_cities.config astar euclidean
+Algorithm is astar
+goal state is  C44
+min state is C00
+Found
+====Path==== 
+C00
+C11
+C02
+C13
+C24
+C34
+C44
+====Total Nodes Created (Time)====
+Size: 73
+====Max Frontier List Size (Space)====
+Size: 9
+====Max Explored List Size (Space)====
+Size: 25
+========
+bash-3.2$ exit
+exit
+
+Script done on Wed Sep 26 14:49:51 2018
